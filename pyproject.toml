@@ -16,9 +16,9 @@ dependencies = [
     "pydantic>=2.11.3",
     "safetensors>=0.5.3",
     "soundfile>=0.13.1",
-    "torch==2.6.0",
-    "torchaudio==2.6.0",
-    "triton==3.2.0 ; sys_platform == 'linux'",
+    "torch==2.7.0",
+    "torchaudio==2.7.0",
+    "triton==3.3.0 ; sys_platform == 'linux'",
     "triton-windows==3.2.0.post18 ; sys_platform == 'win32'",
 ]
 
@@ -48,15 +48,15 @@ lines-after-imports = 2
 
 [tool.uv.sources]
 torch = [
-  { index = "pytorch-cu126", marker = "sys_platform == 'linux' or sys_platform == 'win32'" },
+  { index = "pytorch-cu128", marker = "sys_platform == 'linux' or sys_platform == 'win32'" },
 ]
 torchaudio = [
-  { index = "pytorch-cu126", marker = "sys_platform == 'linux' or sys_platform == 'win32'" },
+  { index = "pytorch-cu128", marker = "sys_platform == 'linux' or sys_platform == 'win32'" },
 ]
 
 [[tool.uv.index]]
-name = "pytorch-cu126"
-url = "https://download.pytorch.org/whl/cu126"
+name = "pytorch-cu128"
+url = "https://download.pytorch.org/whl/cu128"
 explicit = true
 
 [dependency-groups]
