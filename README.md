@@ -171,6 +171,3 @@ Join our [Discord Server](https://discord.gg/bJq6vjRRKv) for discussions.
 - "Nari" is a pure Korean word for lily.
 - We thank Jason Y. for providing help with data filtering.
 
-
-## ⭐ Star History
-
