@@ -25,6 +25,8 @@ We also provide a [demo page](https://yummy-fir-7a4.notion.site/dia) comparing o
 - Join our [discord server](https://discord.gg/bJq6vjRRKv) for community support and access to new features.
 - Play with a larger version of Dia: generate fun conversations, remix content, and share with friends. 🔮 Join the [waitlist](https://tally.so/r/meokbo) for early access.
 
+> Note: updated to work with cuda 12.8 machines. Changes done => torch 3.7
+
 ## Generation Guidelines
 
 - Keep input text length moderate 
